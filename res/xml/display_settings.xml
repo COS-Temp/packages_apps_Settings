@@ -165,4 +165,14 @@
             android:title="@string/theme_customization_icon_shape_title"/>
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/buttons_category_title">
+
+        <PreferenceScreen
+            android:key="hardware_keys"
+            android:title="@string/hardware_keys"
+            android:summary="@string/hardware_keys_summary"
+            android:fragment="com.android.settings.arrow.HardwareKeys" />
+    </PreferenceCategory >
+
 </PreferenceScreen>
