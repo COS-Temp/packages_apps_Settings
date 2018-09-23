@@ -138,7 +138,7 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.cosmic.settings.Galaxy;
+import com.cosmic.settings.CosmicSettings;
 import com.cosmic.settings.display.SmartPixels;
 
 public class SettingsGateway {
@@ -266,7 +266,7 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-            Galaxy.class.getName(),
+            CosmicSettings.class.getName(),
             SmartPixels.class.getName(),
     };
 
@@ -306,7 +306,7 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
-            Settings.GalaxyActivity.class.getName(),
+            Settings.CosmicSettingsActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
     };
 }
