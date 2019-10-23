@@ -22,6 +22,11 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Cosmic-OS Banner -->
+    <PreferenceScreen
+    	android:layout="@layout/cosmic_banner"
+    	android:key="cosmic_banner" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
